@@ -1,36 +1,36 @@
 (Feel free to suggest changes)
 # Papers
-- Merging Phoneme and Char representations: https://arxiv.org/pdf/1811.07240.pdf
-- Tacotron Transfer Learning : https://arxiv.org/pdf/1904.06508.pdf
-- Phoneme Timing From Attention: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8683827
-- Semi-Supervised Training to Improve Data Efficiency in End-to-End Speech Synthesis - https://arxiv.org/pdf/1808.10128.pdf
-- Listening while Speaking: Speech Chain by Deep Learning - https://arxiv.org/pdf/1707.04879.pdf
-- Generelized End-to-End Loss for Speaker Verification: https://arxiv.org/pdf/1710.10467.pdf
-- Es-Tacotron2: Multi-Task Tacotron 2 with Pre-Trained Estimated Network for Reducing the Over-Smoothness Problem: https://www.mdpi.com/2078-2489/10/4/131/pdf
-	- Against Over-Smoothness
-- FastSpeech: https://arxiv.org/pdf/1905.09263.pdf
-- Learning Singing From Speech: https://arxiv.org/pdf/1912.10128.pdf
-- TTS-GAN: https://arxiv.org/pdf/1909.11646.pdf
-    - they use duration and linguistic features for en2en TTS.
-    - Close to WaveNet performance.
-- DurIAN: https://arxiv.org/pdf/1909.01700.pdf
-    - Duration aware Tacotron
-- MelNet: https://arxiv.org/abs/1906.01083
-- AlignTTS: https://arxiv.org/pdf/2003.01950.pdf
-- Unsupervised Speech Decomposition via Triple Information Bottleneck
-    - https://arxiv.org/pdf/2004.11284.pdf
-    - https://anonymous0818.github.io/
-- FlowTron: https://arxiv.org/pdf/2005.05957.pdf
-    - Inverse Autoregresive Flow on Tacotron like architecture
-    - WaveGlow as vocoder.
-    - Speech style embedding with Mixture of Gaussian model.
-    - Model is large and havier than vanilla Tacotron
-    - MOS values are slighly better than public Tacotron implementation.
-- Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention : https://arxiv.org/pdf/1710.08969.pdf
+| year | Title | Links | Comments |
+|------|-------|-------|----------|
+| 1997 | Rule synthesis of speech from dyadic units | [Paper](https://ieeexplore.ieee.org/document/1170350) | |
+| 2017 | Listening while Speaking: Speech Chain by Deep Learning | [Paper](https://arxiv.org/pdf/1707.04879.pdf) | |
+| 2018 | Semi-Supervised Training to Improve Data Efficiency in End-to-End Speech Synthesis | [Paper](https://arxiv.org/pdf/1808.10128.pdf) | |
+| 2019 | Es-Tacotron2: Multi-Task Tacotron 2 with Pre-Trained Estimated Network for Reducing the Over-Smoothness Problem | [Paper](https://www.mdpi.com/2078-2489/10/4/131/pdf) | <small>Against Over-Smoothness</small> |
+| 2019 | Representation Mixing for TTS Synthesis | [Paper](https://arxiv.org/pdf/1811.07240.pdf) | <small>Merging Phoneme and Char representations |
+| 2019 | Non-Autoregressive Neural Text-to-Speech | [Paper](https://arxiv.org/pdf/1905.08459.pdf) [Summary](#expansive-summaries)| <small>ParaNet |
+| 2019 | DURIAN: Duration Informed Attention Network for Multimodal Synthesis | [Paper](https://arxiv.org/pdf/1909.01700.pdf) | <small>Duration aware Tacotron |
+| 2019 | End-to-end Text-to-speech for Low-resource Languages by Cross-Lingual Transfer Learning | [Paper](https://arxiv.org/pdf/1904.06508) | <small>Tacotron Transfer Learning |
+| 2019 | High Fidelity Speech Synthesis with Adversarial Networks | [Paper](https://arxiv.org/pdf/1909.11646.pdf) | <small>GAN-TTS Duration and linguistic features for en2en TTS, near WaveNet performance. |
+| 2019 | MelNet: A Generative Model for Audio in the Frequency Domain | [Paper](https://arxiv.org/abs/1906.01083) | |
+| 2019 | Phonemic-level Duration Control Using Attention Alignment for Natural Speech Synthesis | [Paper](https://ieeexplore.ieee.org/document/8683827) | <small>Phoneme Timing From Attention |
+| 2019 | FastSpeech: Fast, Robust and Controllable Text to Speech | [Paper](https://arxiv.org/pdf/1905.09263.pdf) | |
+| 2019 | Learning Singing From Speech | [Paper](https://arxiv.org/pdf/1912.10128.pdf) | |
+| 2020 | Generelized End-to-End Loss for Speaker Verification | [Paper](https://arxiv.org/pdf/1710.10467.pdf) | |
+| 2020 | FastSpeech 2: Fast and High-Quality End-to-End Text to Speech | [Paper](http://arxiv.org/abs/2006.04558.pdf) [Summary](#expansive-summaries)| |
+| 2020 | End-to-End Adversarial Text-to-Speech | [Paper](https://arxiv.org/pdf/2006.03575.pdf) [Summary](#expansive-summaries)| |
+| 2020 | AlignTTS: Efficient Feed-Forward Text-to-Speech System Without Explicit Alignment | [Paper](https://arxiv.org/pdf/2003.01950.pdf) | |
+| 2020 | Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search | [Paper](https://arxiv.org/pdf/2005.11129.pdf) [Summary](#expansive-summaries)| |
+| 2020 | Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention | [Paper](https://arxiv.org/pdf/1710.08969.pdf) | |
+| 2020 | Flowtron: An Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis | [Paper](https://arxiv.org/pdf/2005.05957.pdf) | <small>Tacotron, IAF, WaveGlow vocoder, Gaussian speech style embedding, larger, better MOS. |
+| 2021 | Unsupervised Speech Decomposition via Triple Information Bottleneck | [Paper](https://arxiv.org/pdf/2004.11284.pdf) [Demo](https://anonymous0818.github.io/) | |
+| 2021 | Parallel Tacotron 2: A Non-Autoregressive Neural TTS Model with Differentiable Duration Modeling | [Paper](http://arxiv.org/abs/2103.14574) [Summary](#expansive-summaries)| |
+| 2021 | WaveGrad 2: Iterative Refinement for Text-to-Speech Synthesis | [Paper](https://arxiv.org/pdf/2106.09660.pdf) [Summary](#expansive-summaries)| |
+
 
 ### Expansive Summaries
+(Click to Expand)
 <details>
-<summary> End-to-End Adversarial Text-to-Speech: http://arxiv.org/abs/2006.03575 (Click to Expand)</summary>
+<summary> End-to-End Adversarial Text-to-Speech: </summary>
 
   - end2end feed-forward TTS learning.
   - Character alignment has been done with a separate aligner module.
@@ -57,7 +57,7 @@
 </details>
 
 <details>
-<summary> Fast Speech2: http://arxiv.org/abs/2006.04558 (Click to Expand)</summary>
+<summary> Fast Speech2</summary>
 
   - Use phoneme durations generated by [MFA](https://montreal-forced-aligner.readthedocs.io/en/latest/introduction.html) as labels to train a length regulator.
   - Thay use frame level F0 and L2 spectrogram norms (Variance Information) as additional features.
@@ -68,7 +68,7 @@
 </details>
 
 <details>
-<summary> Glow-TTS: https://arxiv.org/pdf/2005.11129.pdf (Click to Expand)</summary>
+<summary> Glow-TTS</summary>
 
   - Use Monotonic Alignment Search to learn the alignment b/w text and spectrogram
   - This alignment is used to train a Duration Predictor to be used at inference.
@@ -94,7 +94,7 @@
 </details>
 
 <details>
-<summary> Non-Autoregressive Neural Text-to-Speech: http://arxiv.org/abs/1905.08459 (Click to Expand)</summary>
+<summary> Non-Autoregressive Neural Text-to-Speech</summary>
 
    - A derivation of Deep Voice 3 model using non-causal convolutional layers.
    - Teacher-Student paradigm to train annon-autoregressive student with multiple attention blocks from an autoregressive teacher model.
@@ -107,7 +107,7 @@
 </details>
 
 <details>
-<summary> Double Decoder Consistency: https://erogol.com/solving-attention-problems-of-tts-models-with-double-decoder-consistency (Click to Expand)</summary>
+<summary> Double Decoder Consistency: https://coqui.ai/blog/tts/solving-attention-problems-of-tts-models-with-double-decoder-consistency</summary>
 
    - The model uses a Tacotron like architecture but with 2 decoders and a postnet.
    - DDC uses two synchronous decoders using different reduction rates.
@@ -124,7 +124,7 @@
 </details>
 
 <details>
-<summary> Parallel Tacotron2: http://arxiv.org/abs/2103.14574 (Click to Expand)</summary>
+<summary> Parallel Tacotron2</summary>
 
    - Does not require external duration information.
    - Solves the alignment issues between the real and ground-truth spectrograms by Soft-DTW loss.
@@ -142,7 +142,7 @@
 </details>
 
 <details>
-<summary> WaveGrad2: https://arxiv.org/pdf/2106.09660.pdf (Click to Expand)</summary>
+<summary> WaveGrad2</summary>
 
 - It computes the raw waveform directly from a phoneme sequence.
 - A Tacotron2 like encoder model is used to compute a hidden representation from phonemes.
@@ -158,19 +158,26 @@
 ______________________________________________________________________
 
 ## Multi-Speaker Papers
-- Training Multi-Speaker Neural Text-to-Speech Systems using Speaker-Imbalanced Speech Corpora - https://arxiv.org/abs/1904.00771
-- Deep Voice 2 - https://papers.nips.cc/paper/6889-deep-voice-2-multi-speaker-neural-text-to-speech.pdf
-- Sample Efficient Adaptive TTS - https://openreview.net/pdf?id=rkzjUoAcFX
-	- WaveNet + Speaker Embedding approach
-- Voice Loop - https://arxiv.org/abs/1707.06588
-- MODELING MULTI-SPEAKER LATENT SPACE TO IMPROVE NEURAL TTS QUICK ENROLLING NEW SPEAKER AND ENHANCING PREMIUM VOICE - https://arxiv.org/pdf/1812.05253.pdf
-- Transfer learning from speaker verification to multispeaker text-to-speech synthesis - https://arxiv.org/pdf/1806.04558.pdf
-- Fitting new speakers based on a short untranscribed sample - https://arxiv.org/pdf/1802.06984.pdf
-- Generalized end-to-end loss for speaker verification - https://arxiv.org/abs/1710.10467
+
+| year | Title | Links | Comments |
+|------|-------|-------|----------|
+| 2017 | Deep Voice 2: Multi-Speaker Neural Text-to-Speech | [Paper](https://arxiv.org/abs/1705.08947) | |
+| 2017 | Generalized End-to-End Loss for Speaker Verification | [Paper](https://arxiv.org/abs/1710.10467) | |
+| 2017 | VoiceLoop: Voice Fitting and Synthesis via a Phonological Loop | [Paper](https://arxiv.org/abs/1707.06588) | |
+| 2018 | Modeling Multi-speaker Latent Space to Improve Neural TTS: Quick Enrolling New Speaker and Enhancing Premium Voice | [Paper](https://arxiv.org/abs/1812.05253) | |
+| 2018 | Fitting New Speakers Based on a Short Untranscribed Sample | [Paper](https://arxiv.org/abs/1802.06984) | |
+| 2019 | Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis | [Paper](https://arxiv.org/abs/1806.04558) | |
+| 2019 | Training Multi-Speaker Neural Text-to-Speech Systems using Speaker-Imbalanced Speech Corpora | [Paper](https://arxiv.org/abs/1904.00771) | |
+| 2019 | Sample Efficient Adaptative Text-to-Speech | [Paper](https://openreview.net/pdf?id=rkzjUoAcFX) | <small>WaveNet + Speaker Embedding approach |
+| 2020 | Semi-supervised Learning for Multi-speaker Text-to-speech Synthesis Using Discrete Speech Representation | [Paper](http://arxiv.org/abs/2005.08024) [Summary](#expansive-summaries-1)| |
+| 2020 | Attentron: Few-Shot Text-to-Speech Utilizing Attention-Based Variable-Length Embedding | [Paper](https://arxiv.org/abs/2005.08484) [Summary](#expansive-summaries-1)| |
+| 2020 | Towards Universal Text-to-Speech | [Paper](http://www.interspeech2020.org/uploadfile/pdf/Wed-3-4-3.pdf) [Summary](#expansive-summaries-1)| |
+| 2021 | AdaSpeech: Adaptive Text to Speech for Custom Voice | [Paper](https://openreview.net/pdf?id=Drynvt7gg4L) [Summary](#expansive-summaries-1)| |
 
 ### Expansive Summaries
+(Click to Expand)
 <details>
-<summary> Semi-supervised Learning for Multi-speaker Text-to-speech Synthesis Using Discrete Speech Representation: http://arxiv.org/abs/2005.08024 </summary>
+<summary> Semi-supervised Learning for Multi-speaker Text-to-speech Synthesis Using Discrete Speech Representation</summary>
 
    - Train a multi-speaker TTS model with only an hour long paired data (text-to-voice alignment) and more unpaired (only voide) data.
    - It learns a code book with each code word corresponds to a single phoneme.
@@ -187,7 +194,7 @@ ______________________________________________________________________
   ![image](https://user-images.githubusercontent.com/1402048/93603135-de325180-f9c3-11ea-8081-7c1c3390b9f0.png)
 </details>
 <details>
-<summary> Attentron: Few-shot Text-to-Speech Exploiting Attention-based Variable Length Embedding: https://arxiv.org/abs/2005.08484 </summary>
+<summary> Attentron: Few-shot Text-to-Speech Exploiting Attention-based Variable Length Embedding</summary>
 
    - Use two encoders to learn speaker depended features.
    - Coarse encoder learns a global speaker embedding vector based on provided reference spectrograms.
@@ -204,7 +211,7 @@ ______________________________________________________________________
 </details>
 
 <details>
-<summary> Towards Universal Text-to-Speech: http://www.interspeech2020.org/uploadfile/pdf/Wed-3-4-3.pdf </summary>
+<summary> Towards Universal Text-to-Speech</summary>
 
    - A framework for a sequence to sequence multi-lingual TTS
    - The model is trained with a very large, highly unbalanced dataset.
@@ -228,7 +235,7 @@ ______________________________________________________________________
 </details>
 
 <details>
-<summary> AdaSpeech: Adaptive Text to Speech for Custom Voice: https://openreview.net/pdf?id=Drynvt7gg4L </summary>
+<summary>AdaSpeech: Adaptive Text to Speech for Custom Voice</summary>
 
    - They proposed a system that can adapt to different input acoustic properties of users and it uses minimum number of parameters to achieve this. 
    - The main architecture is based on FastSpeech2 model that uses Pitch and Variance predictors to learn the finer granularities of the input speech. 
@@ -257,7 +264,9 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 ## Attention
-- Location-Relative Attention Mechanisms for Robust Long-Formspeech Synthesis - https://arxiv.org/pdf/1910.10288.pdf
+| year | Title | Links | Comments |
+|------|-------|-------|----------|
+| 2020 | Location-Relative Attention Mechanisms for Robust Long-Formspeech Synthesis | [Paper](https://arxiv.org/pdf/1910.10288.pdf) | |
 
 ______________________________________________________________________
 
